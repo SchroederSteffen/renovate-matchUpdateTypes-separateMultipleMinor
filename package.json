@@ -1,6 +1,6 @@
 {
   "name": "renovate-match-update-types-separate-multiple-minor",
   "dependencies": {
-    "typescript": "5.1.3"
+    "typescript": "5.1.6"
   }
 }
