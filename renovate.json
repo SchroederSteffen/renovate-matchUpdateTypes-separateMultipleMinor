@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":separateMultipleMajorReleases",
+    "group:allNonMajor"
+  ],
+  "packageRules": [
+    {
+      "groupName": "typescript",
+      "matchPackageNames": ["typescript"],
+      "matchUpdateTypes": ["major", "minor"]
+    },
+    {
+      "matchPackageNames": ["typescript"],
+      "separateMultipleMinor": true
+    }
+  ]
+}
