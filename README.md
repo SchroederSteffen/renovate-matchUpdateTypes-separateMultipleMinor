@@ -46,3 +46,7 @@ While it's not possible to use `matchUpdateTypes` & `separateMultipleMinor` in t
   ]
 }
 ```
+
+## Discussion
+
+<https://github.com/renovatebot/renovate/discussions/29064>
